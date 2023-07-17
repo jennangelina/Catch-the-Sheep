@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		816EE81726F09DFA009CEF24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EE81626F09DFA009CEF24 /* AppDelegate.swift */; };
+		816EE81926F09DFA009CEF24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EE81826F09DFA009CEF24 /* SceneDelegate.swift */; };
+		816EE81B26F09DFB009CEF24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EE81A26F09DFB009CEF24 /* ViewController.swift */; };
+		816EE81E26F09DFB009CEF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816EE81C26F09DFB009CEF24 /* Main.storyboard */; };
+		816EE82026F09E12009CEF24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816EE81F26F09E12009CEF24 /* Assets.xcassets */; };
+		816EE82326F09E12009CEF24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816EE82126F09E12009CEF24 /* LaunchScreen.storyboard */; };
+		816EE82E26F09E12009CEF24 /* CatchTheSheepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EE82D26F09E12009CEF24 /* CatchTheSheepTests.swift */; };
+		816EE83926F09E12009CEF24 /* CatchTheSheepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EE83826F09E12009CEF24 /* CatchTheSheepUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		816EE82A26F09E12009CEF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816EE80B26F09DF9009CEF24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816EE81226F09DFA009CEF24;
+			remoteInfo = CatchTheSheep;
+		};
+		816EE83526F09E12009CEF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816EE80B26F09DF9009CEF24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816EE81226F09DFA009CEF24;
+			remoteInfo = CatchTheSheep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		816EE81326F09DFA009CEF24 /* CatchTheSheep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheSheep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		816EE81626F09DFA009CEF24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		816EE81826F09DFA009CEF24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		816EE81A26F09DFB009CEF24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		816EE81D26F09DFB009CEF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		816EE81F26F09E12009CEF24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		816EE82226F09E12009CEF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		816EE82426F09E12009CEF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816EE82926F09E12009CEF24 /* CatchTheSheepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheSheepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		816EE82D26F09E12009CEF24 /* CatchTheSheepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheSheepTests.swift; sourceTree = "<group>"; };
+		816EE82F26F09E12009CEF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816EE83426F09E12009CEF24 /* CatchTheSheepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheSheepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		816EE83826F09E12009CEF24 /* CatchTheSheepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheSheepUITests.swift; sourceTree = "<group>"; };
+		816EE83A26F09E12009CEF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		816EE81026F09DFA009CEF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816EE82626F09E12009CEF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816EE83126F09E12009CEF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		816EE80A26F09DF9009CEF24 = {
+			isa = PBXGroup;
+			children = (
+				816EE81526F09DFA009CEF24 /* CatchTheSheep */,
+				816EE82C26F09E12009CEF24 /* CatchTheSheepTests */,
+				816EE83726F09E12009CEF24 /* CatchTheSheepUITests */,
+				816EE81426F09DFA009CEF24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		816EE81426F09DFA009CEF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				816EE81326F09DFA009CEF24 /* CatchTheSheep.app */,
+				816EE82926F09E12009CEF24 /* CatchTheSheepTests.xctest */,
+				816EE83426F09E12009CEF24 /* CatchTheSheepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		816EE81526F09DFA009CEF24 /* CatchTheSheep */ = {
+			isa = PBXGroup;
+			children = (
+				816EE81626F09DFA009CEF24 /* AppDelegate.swift */,
+				816EE81826F09DFA009CEF24 /* SceneDelegate.swift */,
+				816EE81A26F09DFB009CEF24 /* ViewController.swift */,
+				816EE81C26F09DFB009CEF24 /* Main.storyboard */,
+				816EE81F26F09E12009CEF24 /* Assets.xcassets */,
+				816EE82126F09E12009CEF24 /* LaunchScreen.storyboard */,
+				816EE82426F09E12009CEF24 /* Info.plist */,
+			);
+			path = CatchTheSheep;
+			sourceTree = "<group>";
+		};
+		816EE82C26F09E12009CEF24 /* CatchTheSheepTests */ = {
+			isa = PBXGroup;
+			children = (
+				816EE82D26F09E12009CEF24 /* CatchTheSheepTests.swift */,
+				816EE82F26F09E12009CEF24 /* Info.plist */,
+			);
+			path = CatchTheSheepTests;
+			sourceTree = "<group>";
+		};
+		816EE83726F09E12009CEF24 /* CatchTheSheepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				816EE83826F09E12009CEF24 /* CatchTheSheepUITests.swift */,
+				816EE83A26F09E12009CEF24 /* Info.plist */,
+			);
+			path = CatchTheSheepUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		816EE81226F09DFA009CEF24 /* CatchTheSheep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816EE83D26F09E12009CEF24 /* Build configuration list for PBXNativeTarget "CatchTheSheep" */;
+			buildPhases = (
+				816EE80F26F09DFA009CEF24 /* Sources */,
+				816EE81026F09DFA009CEF24 /* Frameworks */,
+				816EE81126F09DFA009CEF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatchTheSheep;
+			productName = CatchTheSheep;
+			productReference = 816EE81326F09DFA009CEF24 /* CatchTheSheep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		816EE82826F09E12009CEF24 /* CatchTheSheepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816EE84026F09E12009CEF24 /* Build configuration list for PBXNativeTarget "CatchTheSheepTests" */;
+			buildPhases = (
+				816EE82526F09E12009CEF24 /* Sources */,
+				816EE82626F09E12009CEF24 /* Frameworks */,
+				816EE82726F09E12009CEF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816EE82B26F09E12009CEF24 /* PBXTargetDependency */,
+			);
+			name = CatchTheSheepTests;
+			productName = CatchTheSheepTests;
+			productReference = 816EE82926F09E12009CEF24 /* CatchTheSheepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		816EE83326F09E12009CEF24 /* CatchTheSheepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816EE84326F09E12009CEF24 /* Build configuration list for PBXNativeTarget "CatchTheSheepUITests" */;
+			buildPhases = (
+				816EE83026F09E12009CEF24 /* Sources */,
+				816EE83126F09E12009CEF24 /* Frameworks */,
+				816EE83226F09E12009CEF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816EE83626F09E12009CEF24 /* PBXTargetDependency */,
+			);
+			name = CatchTheSheepUITests;
+			productName = CatchTheSheepUITests;
+			productReference = 816EE83426F09E12009CEF24 /* CatchTheSheepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		816EE80B26F09DF9009CEF24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					816EE81226F09DFA009CEF24 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					816EE82826F09E12009CEF24 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 816EE81226F09DFA009CEF24;
+					};
+					816EE83326F09E12009CEF24 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 816EE81226F09DFA009CEF24;
+					};
+				};
+			};
+			buildConfigurationList = 816EE80E26F09DF9009CEF24 /* Build configuration list for PBXProject "CatchTheSheep" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 816EE80A26F09DF9009CEF24;
+			productRefGroup = 816EE81426F09DFA009CEF24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				816EE81226F09DFA009CEF24 /* CatchTheSheep */,
+				816EE82826F09E12009CEF24 /* CatchTheSheepTests */,
+				816EE83326F09E12009CEF24 /* CatchTheSheepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		816EE81126F09DFA009CEF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816EE82326F09E12009CEF24 /* LaunchScreen.storyboard in Resources */,
+				816EE82026F09E12009CEF24 /* Assets.xcassets in Resources */,
+				816EE81E26F09DFB009CEF24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816EE82726F09E12009CEF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816EE83226F09E12009CEF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		816EE80F26F09DFA009CEF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816EE81B26F09DFB009CEF24 /* ViewController.swift in Sources */,
+				816EE81726F09DFA009CEF24 /* AppDelegate.swift in Sources */,
+				816EE81926F09DFA009CEF24 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816EE82526F09E12009CEF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816EE82E26F09E12009CEF24 /* CatchTheSheepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816EE83026F09E12009CEF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816EE83926F09E12009CEF24 /* CatchTheSheepUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		816EE82B26F09E12009CEF24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816EE81226F09DFA009CEF24 /* CatchTheSheep */;
+			targetProxy = 816EE82A26F09E12009CEF24 /* PBXContainerItemProxy */;
+		};
+		816EE83626F09E12009CEF24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816EE81226F09DFA009CEF24 /* CatchTheSheep */;
+			targetProxy = 816EE83526F09E12009CEF24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		816EE81C26F09DFB009CEF24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816EE81D26F09DFB009CEF24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		816EE82126F09E12009CEF24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816EE82226F09E12009CEF24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		816EE83B26F09E12009CEF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		816EE83C26F09E12009CEF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		816EE83E26F09E12009CEF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatchTheSheep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.26416014.CatchTheSheep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		816EE83F26F09E12009CEF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatchTheSheep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.26416014.CatchTheSheep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		816EE84126F09E12009CEF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatchTheSheepTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.26416014.CatchTheSheepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheSheep.app/CatchTheSheep";
+			};
+			name = Debug;
+		};
+		816EE84226F09E12009CEF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatchTheSheepTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.26416014.CatchTheSheepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheSheep.app/CatchTheSheep";
+			};
+			name = Release;
+		};
+		816EE84426F09E12009CEF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatchTheSheepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.26416014.CatchTheSheepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatchTheSheep;
+			};
+			name = Debug;
+		};
+		816EE84526F09E12009CEF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatchTheSheepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.26416014.CatchTheSheepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatchTheSheep;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		816EE80E26F09DF9009CEF24 /* Build configuration list for PBXProject "CatchTheSheep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816EE83B26F09E12009CEF24 /* Debug */,
+				816EE83C26F09E12009CEF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816EE83D26F09E12009CEF24 /* Build configuration list for PBXNativeTarget "CatchTheSheep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816EE83E26F09E12009CEF24 /* Debug */,
+				816EE83F26F09E12009CEF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816EE84026F09E12009CEF24 /* Build configuration list for PBXNativeTarget "CatchTheSheepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816EE84126F09E12009CEF24 /* Debug */,
+				816EE84226F09E12009CEF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816EE84326F09E12009CEF24 /* Build configuration list for PBXNativeTarget "CatchTheSheepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816EE84426F09E12009CEF24 /* Debug */,
+				816EE84526F09E12009CEF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 816EE80B26F09DF9009CEF24 /* Project object */;
+}
